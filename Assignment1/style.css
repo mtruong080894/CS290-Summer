@@ -1,0 +1,48 @@
+th:first-child {
+  font-style: italic;
+  font-weight: normal;
+}
+/* Specify a background color for every <p> element that is the second p element of its parent */
+/* Extra credit */
+tbody td:nth-child(2) {
+  color: red;
+}
+
+td:nth-child(4) {
+  color: blue;
+}
+
+tbody > tr:nth-child(2n+1) {
+  background-color: #98ff98;
+}
+
+tbody > tr:nth-child(2n) {
+  background-color: #addfff; 
+}
+
+dt:hover + dd{
+  background-color: #663399;
+}
+
+.outer-content {
+  position: relative;
+  height: 50px;
+  width: 75%;
+  margin-top: 20px; /* req */
+  background-color: #ff69b4; /* Pink*/
+}
+
+.inner-content {
+  position: absolute;
+  width: 75%;
+  height: 40%;
+  overflow: auto;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #addfff; /* Blue */
+  text-align: center;
+}
+

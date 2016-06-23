@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <p>Mike Truong | CS290-Summer | Assignment #1</p>
+    <table border=1>
+      <caption>Inventory Stock</caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Processed Method</th>
+          <th>Unit</th>
+          <th>Unit Price</th>
+          <th>Count Unit</th>
+          <th>Unit No.</th>
+        </tr>
+      <tbody>
+        <tr>
+          <th>NY Strip Steak </th>
+          <td> Dry Aged </td>
+          <td>lb</td>
+          <td>$8.99</td>
+          <td>lb</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <th>Tomatoe</th>
+           <td>Farmed</td>
+           <td>lb</td>
+          <td>$2.50</td>
+           <td>lb</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <th>Spinach</th>
+           <td>Farmed</td>
+           <td>lb</td>
+          <td>$2.99</td>
+           <td>lb</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <th>Asparagus</th>
+           <td>Farmed</td>
+           <td>lb</td>
+          <td>$4.99</td>
+           <td>lb</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <th>Salmon</th>
+           <td>Salt Brined</td>
+           <td>lb</td>
+          <td>$7.00</td>
+           <td>lb</td>
+          <td>11</td>
+        </tr>
+      <tfoot>
+        <tr>
+          <td colspan="2">Footer 1</td> <!-- 2 column wide, double for next -->
+          <td colspan="4">Footer 2</td> <!-- 4 column wide -->
+        </tr>
+      </tfoot>
+    </table>
+	<p>
+	
+	<!-- List component of the assignment, 3 items -->
+    <h1>Grocery List</h1>
+    <dl>
+      <dt>Chicken Breast</DT>
+      <dd> Farmed raised, de-boned.</dd>
+      <dt>Honey</dt>
+      <dd>Organic, light-brown consistency.</dd>
+      <dt>Flowers</dt>
+      <dd> Edible Flowers, multiple colors. </dd>	
+      <dt></dt>
+      <dd></dd>
+    </dl>
+<!-- That content bar with colors -->
+  <div class="outer-content">
+      <div class="inner-content">Here is some content</div>
+    </div>
+
+    <h2>Forms</h2> <!-- Create two forms, 1 get, 1 post-->
+
+	<!-- Submit to: Form action -> [Link] "Method:" -->    
+    <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+      <fieldset>
+      <legend>Some POST Data</legend>
+      <p><label for="text_input">Text here: </label>
+      <input type="text" name="text_input"></p>
+      <p><label for="numerical_input">Number here:</label> 
+      <input type="number" name="numerical_input"></p>
+      <p><label for="password_input">Password here:</label>  
+      <input type="password" name="password_input"></p>
+      <p><label for="candy">Select candy:</label><br /> 
+	<!-- Radio --> 
+      <input type="radio" name="candy" value="Snickers">Snickers<br/>
+      <input type="radio" name="candy" value="Skittles">Skittles<br/>
+      <input type="radio" name="candy" value="Mentos">Mentos</p>
+      <input type="submit" value="Submit">
+      </fieldset>
+    </form>
+
+    <p></p>
+    <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+      <fieldset>
+      <legend>Some GET Data</legend>
+      <p><label for="text_input">Text here: </label>
+      <input type="text" name="text_input"></p>
+      <p><label for="numerical_input">Number here:</label> 
+      <input type="number" name="numerical_input"></p>
+      <p><label for="password_input">Password here:</label>  
+      <input type="password" name="password_input"></p>
+      <p><label for="candy">Select candy:</label><br /> 
+      <input type="radio" name="candy" value="Snickers">Snickers<br/>
+      <input type="radio" name="candy" value="Skittles">Skittles<br/>
+      <input type="radio" name="candy" value="Mentos">Mentos</p>
+      <input type="submit" value="Submit">
+      </fieldset>
+    </form>
+    
+  
+
+    
+  </body>
+</html>
