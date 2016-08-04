@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>week4_practice</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Open Weather Application</legend>
+        <label for="zipCode">Zip Code:</label>
+        <input type="text" name="zipCode" id="zipCode">
+        <br/>
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city">
+        <br/>
+        <input type="submit" id="submitweather">
+    </fieldset>
+    <span>Response:</span>
+    <p>City: <span id="cityN"></span></p>
+    <p>Current Temp (in degrees kelvin): <span id="temperature"></span></p>
+    <p>Sunset Time: <span id="sunset"></span></p>
+</form>
+<form id="httpbinForm">
+    <fieldset>
+        <legend>HttpBin</legend>
+        <textarea name="httpbinInput" form="httpbinForm" id="httpbinInputField"></textarea>
+        <br/>
+        <input type="submit" id="httpbinSubmit"/>
+    </fieldset>
+    <p>Response:</p>
+    <span id="httpbinResponse"></span>
+</form>
+</body>
+<script src="openweather.js" type="application/javascript"></script>
+<script src="json.js" type="application/javascript"></script>
+</html>

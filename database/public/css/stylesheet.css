@@ -1,0 +1,8 @@
+#workoutTable th, td
+{
+	border:1px solid black;
+}
+#workoutTable {
+
+	border-collpase: collapse;
+}
